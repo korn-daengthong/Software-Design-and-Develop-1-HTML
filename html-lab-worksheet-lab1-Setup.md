@@ -53,10 +53,10 @@
    <!DOCTYPE html>
    <html>
    <head>
-       <title>ทดสอบ Live Server</title>
+       <title>test Live Server</title>
    </head>
    <body>
-       <h1>สวัสดี Live Server</h1>
+       <h1>hi Live Server</h1>
    </body>
    </html>
    ```
