@@ -165,10 +165,147 @@
 ### บันทึกผลการทดลอง
 - รหัสเอกสาร HTML ที่เขียน:
 ```html
-[วางโค้ด HTML ที่นี่]
-```
-- ภาพผลลัพธ์:
-[วางภาพ screenshot ที่นี่]
+[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PRODUCTS OF POKÉMON CARDS</title>
+    <!-- นำเข้า Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        nav, section, figure, figcaption {
+            margin-bottom: 20px;
+        }
+        nav img {
+            vertical-align: middle;
+        }
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 700;
+        }
+        figure {
+            text-align: center;
+        }
+        hr {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <!-- ลิงก์ภายใน - ไปยังหน้าในเว็บไซต์เดียวกัน -->
+       
+        <!-- รูปภาพในโฟลเดอร์ images -->
+            <img src="images/products/logop.png" 
+            alt="โลโก้บริษัท"
+            height="100"
+            width="400">
+            <a href="index.html">หน้าหลัก</a>
+        <a href="test.html">กลับ</a>
+        
+        <!-- ลิงก์ภายนอก - เปิดในแท็บใหม่ -->
+        <a href="https://www.google.com" target="_blank">
+            ไปยัง Google
+        </a>
+    </nav>
+    <!-- สร้างจุดเชื่อมโยง -->
+<section id="top">
+    <h1>การ์ดโปเกม่อนจาก Pokémon</h1>
+</section>
 
+<section id="products">
+    <h2>สินค้าของทางร้านเรา</h2>
+</section>
+
+<!-- กล่องใส่สินค้า -->
+<figure>
+    <!-- รูปภาพที่กดเพื่อดูขนาดใหญ่ -->
+    <a href="images/products/1.jpg">
+        <img src="images/products/1.jpg" 
+             alt="Charizard Pokémon Card"
+             width="300"
+             height="400">
+    </a>
+    <figcaption>รายละเอียดสินค้า</figcaption>
+    <figcaption><strong>Charizard Pokémon Card</strong>
+        คุณสมบัติ: ความหายากสูง, พลังโจมตีระดับสูง, การ์ดสวยงาม
+        จุดเด่น:
+        การ์ดสะสมที่มีคุณค่าทางจิตใจ
+        ออกแบบอย่างละเอียดและสวยงาม
+        เหมาะสำหรับการสะสมและการเล่นการแข่งขัน</figcaption>
+</figure>
+<hr>
+
+<figure>
+    <a href="images/products/2.jpg">
+        <img src="images/products/2.jpg" 
+             alt="Pikachu Pokémon Card"
+             width="300"
+             height="400">
+    </a>
+    <figcaption>รายละเอียดสินค้า</figcaption>
+    <figcaption><strong>Pikachu Pokémon Card</strong>
+        คุณสมบัติ: ความหายากระดับกลาง, พลังโจมตีไฟฟ้า, การ์ดน่ารัก
+        จุดเด่น:
+        การ์ดที่ได้รับความนิยมสูง
+        ตัวละครที่เป็นสัญลักษณ์ของโปเกม่อน
+        เหมาะสำหรับนักสะสมและผู้เริ่มต้น</figcaption>
+</figure>
+
+<figure>
+<hr>
+    <a href="images/products/3.png">
+    <img src="images/products/3.png" 
+         alt="Meowth Pokémon Card"
+         width="300"
+         height="400">
+    </a>
+    <figcaption>รายละเอียดสินค้า</figcaption>
+    <figcaption><strong>Meowth Pokémon Card</strong>
+        คุณสมบัติ: การ์ดรางวัลพิเศษ, พลังโจมตีแบบธรรมดา, การ์ดที่ได้รับความนิยม
+        จุดเด่น:
+        การ์ดสำหรับการสะสมและการเล่น
+        ออกแบบให้มีความสวยงามและล้ำลึก
+        เหมาะสำหรับการใช้งานในเด็คการแข่งขัน</figcaption>
+</figure>
+
+<hr>
+<figure>
+    <!-- รูปภาพที่กดเพื่อดูขนาดใหญ่ -->
+    <a href="images/products/4.png">
+        <img src="images/products/4.png" 
+             alt="Bulbasaur Pokémon Card"
+             width="300"
+             height="400">
+    </a>
+    <figcaption>รายละเอียดสินค้า</figcaption>
+    <figcaption><strong>Bulbasaur Pokémon Card</strong>
+        คุณสมบัติ: การ์ดพื้นฐาน, พลังโจมตีพืช, การ์ดที่ได้รับความนิยม
+        จุดเด่น:
+        การ์ดเริ่มต้นที่ดีสำหรับผู้เล่นใหม่
+        ความคลาสสิกและเป็นที่รู้จักในวงกว้าง
+        เหมาะสำหรับการสะสมและการเล่นเบื้องต้น</figcaption>
+</figure>
+<hr>
+
+</body>
+</html>
+]
+```
+
+
+
+- ภาพผลลัพธ์:
+[![alt text](image-7.png)]
+
+![alt text](image-8.png)
 
 
